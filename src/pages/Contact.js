@@ -18,7 +18,7 @@ function Contact({ setRotateSpeed }) {
   const form = useRef();
 
   useEffect(() => {
-    init(process.env.REACT_APP_USER_ID);
+    init('YIVHwcnxzWc5rEOtr');
   }, []);
 
   const sendEmail = (e) => {
@@ -27,19 +27,16 @@ function Contact({ setRotateSpeed }) {
     setRotateSpeed(60);
     emailjs
       .sendForm(
-        "gmail",
-        "template_dyvlfqm",
-        // process.env.REACT_APP_SERVICE_ID,
-        // process.env.REACT_APP_TEMPLATE_ID,
-        form.current,
-        // process.env.REACT_APP_USER_ID
-        "user_UCVQB9AIUbJaobUtpSXnz"
+        'service_pvn936e',
+        'template_zql1khp',
+        e.target,
+        'YIVHwcnxzWc5rEOtr',
       )
       .then(
         (res) => {
           console.log(res);
           setRotateSpeed(0.5);
-          form.current.reset();
+          e.target.reset();
           setHeaderText({ text: "Message sent!", modifier: "-success" });
           setIsSending(false);
         },
@@ -49,7 +46,7 @@ function Contact({ setRotateSpeed }) {
           setIsSending(false);
           setHeaderText({ text: "Something went wrong", modifier: "-error" });
           alert(
-            "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at email@email.com"
+            "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at me@victorralves.lat"
           );
         }
       )
@@ -59,7 +56,7 @@ function Contact({ setRotateSpeed }) {
         setIsSending(false);
         setHeaderText({ text: "Something went wrong", modifier: "-error" });
         alert(
-          "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at email@email.com"
+          "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at me@victorralves.lat"
         );
       });
   };
