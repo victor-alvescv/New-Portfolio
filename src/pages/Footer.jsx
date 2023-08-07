@@ -22,7 +22,7 @@ const Footer = () => {
           <a target="_blank" href="mailto:me@victoralves.lat">Email</a>
         </div>
         <div>
-          <a target="_blank" href="https://victorralves.lat/assets/Resume.pdf">Resume</a>
+          <a target="_blank" href="https://victorralves.lat/Resume.pdf">Resume</a>
         </div>
       </div>
       <div>Copyright &copy; 2022 Victor Alves</div>
