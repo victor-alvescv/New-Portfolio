@@ -8,6 +8,7 @@ import { technicalSkillsConfig } from "../config/resume/technicalSkillsConfig";
 import { transferrableSkillsConfig } from "../config/resume/transferrableSkillsConfig";
 import { AnimatedHeader } from "../components/AnimateHeader";
 import ResumeFinal from '../assets/Resume.pdf'
+import Certificate from '../assets/Certificate.pdf'
 
 const Resume = () => {
   return (
@@ -66,7 +67,7 @@ const Resume = () => {
             <div className="resume__education--wrapper">
               <div className="resume__education">
                 <div className="resume__job--name">
-                  Frontend Developer Bootcamp <a href="https://victorralves.lat/assets/Certificate.pdf" target="_blank" className="certificate__text"> Certificate</a>
+                  Frontend Developer Bootcamp <a href={Certificate} target="_blank" className="certificate__text"> Certificate</a>
                 </div>
                 <div>
                   Finished 100% of one of the most prestigious courses of frontend in the world.

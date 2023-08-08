@@ -1,6 +1,7 @@
 import React from "react";
 import FooterLogo from "../assets/favicon.png";
 import { MdOutlineArrowUpward } from "react-icons/md";
+import Resume from '../assets/Resume.pdf'
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
           <a target="_blank" href="mailto:me@victoralves.lat">Email</a>
         </div>
         <div>
-          <a target="_blank" href="https://victorralves.lat/Resume.pdf">Resume</a>
+          <a target="_blank" href={Resume}>Resume</a>
         </div>
       </div>
       <div>Copyright &copy; 2022 Victor Alves</div>
