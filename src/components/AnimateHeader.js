@@ -7,7 +7,7 @@ export const AnimatedHeader = ({ headerText, className }) => {
           return <span>&nbsp;</span>
         }
         return (
-          <span className="rubberBand" key={i} data-aos="flip-left" data-aos-once="true" data-aos-delay={`${(animationDelay = animationDelay + 100)}`}>
+          <span className="rubberBand" key={i} data-aos="flip-left" data-aos-delay={`${(animationDelay = animationDelay + 100)}`}>
             {letter}
           </span>
         );

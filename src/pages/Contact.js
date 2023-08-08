@@ -66,8 +66,7 @@ function Contact({ setRotateSpeed }) {
       <div
         className="row contact__subcontainer"
         data-aos="fade-up"
-        data-aos-delay="500"
-        data-aos-once="true"
+        data-aos-delay="500"        
       >
         <form className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="overflow-offset">
@@ -112,7 +111,7 @@ function Contact({ setRotateSpeed }) {
             )}
           </button>
         </form>
-        <div className="contact__canvas" data-aos="fade-left" data-aos-once="true">
+        <div className="contact__canvas" data-aos="fade-left">
           <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 10], fov: 25 }}>
             <Sphere3D texture={WorldTexture} position={[0, 0, 0]} />
             <OrbitControls autoRotate autoRotateSpeed={3} enableZoom={false} />

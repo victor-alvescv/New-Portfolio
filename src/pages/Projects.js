@@ -26,13 +26,13 @@ function Projects() {
     <>
       <div className="container" id="projects">
         <div className="subcontainer projects">
-          <div className="projects__text-container" data-aos-once="true"  data-aos="fade-up" data-aos-delay="300">
+          <div className="projects__text-container" data-aos="fade-up" data-aos-delay="300">
             <AnimatedHeader
               className={"projects__header"}
               headerText={"Projects"}
             />
           </div>
-          <div className="projects__wrapper" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
+          <div className="projects__wrapper" data-aos="fade-up" data-aos-delay="300">
             {projects?.map((project, i) => {
               return (
                 <Project

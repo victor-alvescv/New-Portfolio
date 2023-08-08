@@ -17,12 +17,11 @@ const Resume = () => {
         className="projects__text-container"
         data-aos="fade-up"
         data-aos-delay="500"
-        data-aos-once="true"
       >
         <AnimatedHeader className={"projects__header"} headerText={"Resume"} />
       </div>
       <div className="resume__wrapper">
-        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500">
           <div className="resume__image">
             <img src={Me} alt="" />
           </div>
@@ -61,7 +60,7 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500">
           <div className="resume__title--description">Education</div>
           <div>
             <div className="resume__education--wrapper">
@@ -78,7 +77,7 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500">
           <div className="resume__title--description">Experience</div>
           <div>
             {experienceConfig.map((experience, index) => (
@@ -103,7 +102,7 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500">
           <div className="resume__title--description">Technical Skills</div>
           <div>
             <div>
@@ -116,7 +115,7 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+        <div className="resume__grid" data-aos="fade-up" data-aos-delay="500">
           <div className="resume__title--description">Transferrable Skills</div>
           <div>
             <div>
@@ -129,7 +128,7 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="resume__grid resume__bottom" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+        <div className="resume__grid resume__bottom" data-aos="fade-up" data-aos-delay="500">
           <div className="resume__title--description">References</div>
           <div>Available Upon request</div>
         </div>

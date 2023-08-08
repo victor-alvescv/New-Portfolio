@@ -97,7 +97,7 @@ function Cloud({ count = 4, radius = 20 }) {
 
 export default function Landing() {
   return (
-    <div id="landing" className="container" data-aos="fade-in" data-aos-once="true">
+    <div id="landing" className="container" data-aos="fade-in">
       <div className="landing__text-container">
         <AnimatedHeader headerText={"Hey,"} className={"landing__header"} />
         <AnimatedHeader

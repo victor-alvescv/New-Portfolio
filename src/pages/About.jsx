@@ -96,7 +96,7 @@ function Cloud({ count = 4, radius = 20 }) {
 function About() {
   return (
     <div className="container" id="about">
-      <div className="about__wrapper" data-aos="fade-down" data-aos-once="true" data-aos-delay="50">
+      <div className="about__wrapper" data-aos="fade-down" data-aos-delay="50">
         <div className="about__left playfair">Here's a bit about me.</div>
         <div className="about__right lato">
           I'm a 18 year-old Brazilian frontend software engineer with a strong
