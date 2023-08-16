@@ -72,7 +72,7 @@ const Resume = () => {
                   Finished 100% of one of the most prestigious courses of frontend in the world.
                 </div>
               </div>
-              <div className="resume__job--date">2021 - 2023</div>
+              <div className="resume__job--date">2021 - 2022</div>
             </div>
           </div>
         </div>

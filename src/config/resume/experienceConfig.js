@@ -1,13 +1,14 @@
 export const experienceConfig = [
+  
   {
-    name: "SkinStric",
-    title: "Software Engineer",
+    name: 'Frontend Developer Internship',
+    title: "Software Engineer in Frontend Simplified",
     description: [
-      "Developing new innovative features across the website leading to a better user experience inside the company showcase and product.",
-      "Using React, JavaScript and TypeScript to engineer a frontend codebase using industry best practises.",
-      "Writing extremely clean and reusable code by making effective use of code isolation, local reasoning, reausable components, pictures and code optimization, being decisive in the visual and logical quality of the website.",
+      "Transformed a completely static HTML, CSS, JavaScript and React single page application into an interactive user interface using animations, transitions and carousels.",
+      "Processed API requests with Axios to dynamically represent data from a cloud server and represented it through skeleton loading states, pagination, and dynamic routing.",
+      "Utilized Git version control and the GitHub interface to work and thrive in a virtual and collaborative team environment.",
     ],
-    date: "Dez 2021 - Jun 2022",
+    date: "Dec 2021 - Jun 2022",
   },
   {
     name: "Qoves",
@@ -20,13 +21,13 @@ export const experienceConfig = [
     date: "Jun 2022 - May 2023",
   },
   {
-    name: 'Frontend Developer Internship',
-    title: "Software Engineer in Frontend Simplified",
+    name: "SkinStric",
+    title: "Software Engineer",
     description: [
-      "Transformed a completely static HTML, CSS, JavaScript and React single page application into an interactive user interface using animations, transitions and carousels.",
-      "Processed API requests with Axios to dynamically represent data from a cloud server and represented it through skeleton loading states, pagination, and dynamic routing.",
-      "Utilized Git version control and the GitHub interface to work and thrive in a virtual and collaborative team environment.",
+      "Developing new innovative features across the website leading to a better user experience inside the company showcase and product.",
+      "Using React, JavaScript and TypeScript to engineer a frontend codebase using industry best practises.",
+      "Writing extremely clean and reusable code by making effective use of code isolation, local reasoning, reausable components, pictures and code optimization, being decisive in the visual and logical quality of the website.",
     ],
     date: "Jun 2023 - Current",
-  }
+  },
 ];
