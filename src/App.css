@@ -242,6 +242,13 @@ a {
 .about__right {
   line-height: 28px;
   font-size: 18px;
+  margin-bottom: 300px;
+}
+
+@media screen and (min-height: 900px) {
+  .about__right {
+    font-size: 16px;
+  }
 }
 
 #clouds {
