@@ -37,7 +37,7 @@ const Resume = () => {
               </div>
               <div>
                 <MdEmail />
-                <a className="resume__link" href="mailto:me@victoralves.lat">
+                <a className="resume__link" href="mailto:mevictoralves@gmail.com">
                   Email
                 </a>
               </div>
